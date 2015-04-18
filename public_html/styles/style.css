@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-avr.-2015, 14:00:51
+    Author     : dylan
+*/
+
+body
+{
+    overflow: hidden;
+    font-family: Georgia, serif ;
+    font-size: 1.5em;
+    color: rgb(35,35,35);
+    text-shadow: 3px 1px 5px #e0e0e0 ;
+    background-color: darkgray;
+}
+
+
+#scrollArea div 
+{
+    position: absolute;
+}
+
+#intro
+{
+    width: 700px;
+}
+#information
+{
+    left: 2250px;
+    top: 1100px;
+    width: 500px;
+}
+#formation
+{
+    left: 2500px;
+    top: 250px;
+    width: 500px;
+}
+#connaissance
+{
+    left: 3750px;
+    top: 730px;
+    transform: rotate(180deg);
+    width: 500px;
+}
+#activite
+{
+    left: 3750px;
+    top: 1650px;
+    width: 500px;
+}
